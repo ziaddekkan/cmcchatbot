@@ -1,0 +1,2344 @@
+[
+    {
+        "tag": "greeting",
+        "patterns": [
+            "Hi",
+            "How are you?",
+            "Is anyone there?",
+            "Hello",
+            "Good day",
+            "What's up",
+            "how are ya",
+            "heyy",
+            "whatsup",
+            "??? ??? ??"
+        ],
+        "responses": [
+            "Hello!",
+            "Good to see you again!",
+            "Hi there, how can I help?"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "goodbye",
+        "patterns": [
+            "cya",
+            "see you",
+            "bye bye",
+            "See you later",
+            "Goodbye",
+            "I am Leaving",
+            "Bye",
+            "Have a Good day",
+            "talk to you later",
+            "ttyl",
+            "i got to go",
+            "gtg"
+        ],
+        "responses": [
+            "Sad to see you go :(",
+            "Talk to you later",
+            "Goodbye!",
+            "Come back soon"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "creator",
+        "patterns": [
+            "what is the name of your developers",
+            "what is the name of your creators",
+            "what is the name of the developers",
+            "what is the name of the creators",
+            "who created you",
+            "your developers",
+            "your creators",
+            "who are your developers",
+            "developers",
+            "you are made by",
+            "you are made by whom",
+            "who created you",
+            "who create you",
+            "creators",
+            "who made you",
+            "who designed you"
+        ],
+        "responses": [
+            "College students named ziad"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "name",
+        "patterns": [
+            "name",
+            "your name",
+            "do you have a name",
+            "what are you called",
+            "what is your name",
+            "what should I call you",
+            "whats your name?",
+            "what are you",
+            "who are you",
+            "who is this",
+            "what am i chatting to",
+            "who am i taking to",
+            "what are you"
+        ],
+        "responses": [
+            "You can call me Mind Reader.",
+            "I'm Mind Reader",
+            "I am a Chatbot.",
+            "I am your helper"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "hours",
+        "patterns": [
+            "timing of college",
+            "what is college timing",
+            "working days",
+            "when are you guys open",
+            "what are your hours",
+            "hours of operation",
+            "when is the college open",
+            "college timing",
+            "what about college timing",
+            "is college open on saturday",
+            "tell something about college timing",
+            "what is the college  hours",
+            "when should i come to college",
+            "when should i attend college",
+            "what is my college time",
+            "college timing",
+            "timing college"
+        ],
+        "responses": [
+            "College is open 8am-5pm Monday-Saturday!"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "number",
+        "patterns": [
+            "more info",
+            "contact info",
+            "how to contact college",
+            "college telephone number",
+            "college number",
+            "What is your contact no",
+            "Contact number?",
+            "how to call you",
+            "College phone no?",
+            "how can i contact you",
+            "Can i get your phone number",
+            "how can i call you",
+            "phone number",
+            "phone no",
+            "call"
+        ],
+        "responses": [
+            "You can contact at: NUMBER"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "course",
+        "patterns": [
+            "list of courses",
+            "list of courses offered",
+            "list of courses offered in",
+            "what are the courses offered in your college?",
+            "courses?",
+            "courses offered",
+            "courses offered in (your univrsity(UNI) name)",
+            "courses you offer",
+            "branches?",
+            "courses available at UNI?",
+            "branches available at your college?",
+            "what are the courses in UNI?",
+            "what are branches in UNI?",
+            "what are courses in UNI?",
+            "branches available in UNI?",
+            "can you tell me the courses available in UNI?",
+            "can you tell me the branches available in UNI?",
+            "computer engineering?",
+            "computer",
+            "Computer engineering?",
+            "it",
+            "IT",
+            "Information Technology",
+            "AI/Ml",
+            "Mechanical engineering",
+            "Chemical engineering",
+            "Civil engineering"
+        ],
+        "responses": [
+            "Our university offers Information Technology, computer Engineering, Mechanical engineering,Chemical engineering, Civil engineering and extc Engineering."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "event",
+        "patterns": [
+            "events organised",
+            "list of events",
+            "list of events organised in college",
+            "list of events conducted in college",
+            "What events are conducted in college",
+            "Are there any event held at college",
+            "Events?",
+            "functions",
+            "what are the events",
+            "tell me about events",
+            "what about events"
+        ],
+        "responses": [
+            "For event detail visit the orientation center"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "document",
+        "patterns": [
+            "document to bring",
+            "documents needed for admision",
+            "documents needed at the time of admission",
+            "documents needed during admission",
+            "documents required for admision",
+            "documents required at the time of admission",
+            "documents required during admission",
+            "What document are required for admission",
+            "Which document to bring for admission",
+            "documents",
+            "what documents do i need",
+            "what documents do I need for admission",
+            "documents needed"
+        ],
+        "responses": [
+            "To know more about document required go ask the directory"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "floors",
+        "patterns": [
+            "size of campus",
+            "building size",
+            "How many floors does college have",
+            "floors in college",
+            "floors in college",
+            "how tall is UNI's College of Engineering college building",
+            "floors"
+        ],
+        "responses": [
+            "My College has total 2 floors "
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "syllabus",
+        "patterns": [
+            "Syllabus for IT",
+            "what is the Information Technology syllabus",
+            "syllabus",
+            "timetable",
+            "what is IT syllabus",
+            "syllabus",
+            "What is next lecture"
+        ],
+        "responses": [
+            "Timetable provide direct to the students OR To know about syllabus visit "
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "library",
+        "patterns": [
+            "is there any library",
+            "library facility",
+            "library facilities",
+            "do you have library",
+            "does the college have library facility",
+            "college library",
+            "where can i get books",
+            "book facility",
+            "Where is library",
+            "Library",
+            "Library information",
+            "Library books information",
+            "Tell me about library",
+            "how many libraries"
+        ],
+        "responses": [
+            "There is one huge and spacious library.timings are 8am to 6pm "
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "infrastructure",
+        "patterns": [
+            "how is college infrastructure",
+            "infrastructure",
+            "college infrastructure"
+        ],
+        "responses": [
+            "Our University has Excellent Infrastructure. Campus is clean. Good IT Labs With Good Speed of Internet connection"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "canteen",
+        "patterns": [
+            "food facilities",
+            "canteen facilities",
+            "canteen facility",
+            "is there any canteen",
+            "Is there a cafetaria in college",
+            "Does college have canteen",
+            "Where is canteen",
+            "where is cafetaria",
+            "canteen",
+            "Food",
+            "Cafetaria"
+        ],
+        "responses": [
+            "Our university has canteen with variety of food available"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "menu",
+        "patterns": [
+            "food menu",
+            "food in canteen",
+            "Whats there on menu",
+            "what is available in college canteen",
+            "what foods can we get in college canteen",
+            "food variety",
+            "What is there to eat?"
+        ],
+        "responses": [
+            "we serve Franky, Locho, Alu-puri, Kachori, Khavsa, Thaali and many more on menu"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "placement",
+        "patterns": [
+            "What is college placement",
+            "Which companies visit in college",
+            "What is average package",
+            "companies visit",
+            "package",
+            "About placement",
+            "placement",
+            "recruitment",
+            "companies"
+        ],
+        "responses": [
+            "To know about placement visit the center of orientation"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "ithod",
+        "patterns": [
+            "Who is HOD",
+            "Where is HOD",
+            "it hod",
+            "name of it hod"
+        ],
+        "responses": [
+            "All engineering departments have only one hod XYZ who available on (Place name)"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "computerhod",
+        "patterns": [
+            "Who is computer HOD",
+            "Where is computer HOD",
+            "computer hod",
+            "name of computer hod"
+        ],
+        "responses": [
+            "All engineering departments have only one hod XYZ who available on (PLACE NAME)"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "extchod",
+        "patterns": [
+            "Who is extc HOD",
+            "Where is  extc HOD",
+            "extc hod",
+            "name of extc hod"
+        ],
+        "responses": [
+            "Different school wise hod are different.So be more clear with your school or department"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "principal",
+        "patterns": [
+            "what is the name of principal",
+            "whatv is the principal name",
+            "principal name",
+            "Who is college principal",
+            "Where is principal's office",
+            "principal",
+            "name of principal"
+        ],
+        "responses": [
+            "XYZ is college principal and if you need any help then call your branch hod first.That is more appropriate"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "sem",
+        "patterns": [
+            "exam dates",
+            "exam schedule",
+            "When is semester exam",
+            "Semester exam timetable",
+            "sem",
+            "semester",
+            "exam",
+            "when is exam",
+            "exam timetable",
+            "exam dates",
+            "when is semester"
+        ],
+        "responses": [
+            "go ask the principal said "
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "scholarship",
+        "patterns": [
+            "scholarship",
+            "Is scholarship available",
+            "scholarship engineering",
+            "scholarship it",
+            "scholarship ce",
+            "scholarship mechanical",
+            "scholarship civil",
+            "scholarship chemical",
+            "scholarship for AI/ML",
+            "available scholarships",
+            "scholarship for computer engineering",
+            "scholarship for IT engineering",
+            "scholarship for mechanical engineering",
+            "scholarship for civil engineering",
+            "scholarship for chemical engineering",
+            "list of scholarship",
+            "comps scholarship",
+            "IT scholarship",
+            "mechanical scholarship",
+            "civil scholarship",
+            "chemical scholarship",
+            "automobile scholarship",
+            "first year scholarship",
+            "second year scholarship",
+            "third year scholarship",
+            "fourth year scholarship"
+        ],
+        "responses": [
+            "Many government scholarships are supported by our university. For details and updates visit edu.ma"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "facilities",
+        "patterns": [
+            "What facilities college provide",
+            "College facility",
+            "What are college facilities",
+            "facilities",
+            "facilities provided"
+        ],
+        "responses": [
+            "Our university's Engineering department provides fully AC Lab with internet connection, smart classroom, Auditorium, library,canteen"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "college intake",
+        "patterns": [
+            "max number of students",
+            "number of seats per branch",
+            "number of seats in each branch",
+            "maximum number of seats",
+            "maximum students intake",
+            "What is college intake",
+            "how many stundent are taken in each branch",
+            "seat allotment",
+            "seats"
+        ],
+        "responses": [
+            "For IT, Computer and extc 60 per branch and seat may be differ for different department."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "uniform",
+        "patterns": [
+            "college dress code",
+            "college dresscode",
+            "what is the uniform",
+            "can we wear casuals",
+            "Does college have an uniform",
+            "Is there any uniform",
+            "uniform",
+            "what about uniform",
+            "do we have to wear uniform"
+        ],
+        "responses": [
+            "ENTER YOUR OWN UNIVERSITY UNIFORM CIRCULER"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "committee",
+        "patterns": [
+            "what are the different committe in college",
+            "different committee in college",
+            "Are there any committee in college",
+            "Give me committee details",
+            "committee",
+            "how many committee are there in college"
+        ],
+        "responses": [
+            "For the various committe in college contact this number: ADD NUMBER"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "random",
+        "patterns": [
+            "I love you",
+            "Will you marry me",
+            "Do you love me"
+        ],
+        "responses": [
+            "I am not program for this, please ask appropriate query"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "swear",
+        "patterns": [
+            "fuck",
+            "bitch",
+            "shut up",
+            "hell",
+            "stupid",
+            "idiot",
+            "dumb ass",
+            "asshole",
+            "fucker"
+        ],
+        "responses": [
+            "please use appropriate language",
+            "Maintaining decency would be appreciated"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "vacation",
+        "patterns": [
+            "holidays",
+            "when will semester starts",
+            "when will semester end",
+            "when is the holidays",
+            "list of holidays",
+            "Holiday in these year",
+            "holiday list",
+            "about vacations",
+            "about holidays",
+            "When is vacation",
+            "When is holidays",
+            "how long will be the vacation"
+        ],
+        "responses": [
+            "Academic calender is given to you by your class-soordinators after you join your respective classes"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "sports",
+        "patterns": [
+            "sports and games",
+            "give sports details",
+            "sports infrastructure",
+            "sports facilities",
+            "information about sports",
+            "Sports activities",
+            "please provide sports and games information"
+        ],
+        "responses": [
+            "Our university encourages all-round development of students and hence provides sports facilities in the campus. For more details visite the center of orientation"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "salutation",
+        "patterns": [
+            "okk",
+            "okie",
+            "nice work",
+            "well done",
+            "good job",
+            "thanks for the help",
+            "Thank You",
+            "its ok",
+            "Thanks",
+            "Good work",
+            "k",
+            "ok",
+            "okay"
+        ],
+        "responses": [
+            "I am glad I helped you",
+            "welcome, anything else i can assist you with?"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "task",
+        "patterns": [
+            "what can you do",
+            "what are the thing you can do",
+            "things you can do",
+            "what can u do for me",
+            "how u can help me",
+            "why i should use you"
+        ],
+        "responses": [
+            "I can answer to low-intermediate questions regarding college",
+            "You can ask me questions regarding college, and i will try to answer them"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "ragging",
+        "patterns": [
+            "ragging",
+            "is ragging practice active in college",
+            "does college have any antiragging facility",
+            "is there any ragging cases",
+            "is ragging done here",
+            "ragging against",
+            "antiragging facility",
+            "ragging juniors",
+            "ragging history",
+            "ragging incidents"
+        ],
+        "responses": [
+            "We are Proud to tell you that our college provides ragging free environment, and we have strict rules against ragging"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "hod",
+        "patterns": [
+            "hod",
+            "hod name",
+            "who is the hod"
+        ],
+        "responses": [
+            "HODs differ for each branch, please be more specific like: (HOD it)"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "bot_identity",
+        "patterns": [
+            "who are you",
+            "what are you",
+            "introduce yourself",
+            "describe yourself",
+            "your name",
+            "are you a bot",
+            "are you human",
+            "what's your name",
+            "tell me about you",
+            "your purpose",
+            "who made you",
+            "your identity",
+            "what can you do",
+            "your capabilities",
+            "your job",
+            "what do you do",
+            "your function",
+            "present yourself",
+            "who created you",
+            "your role",
+            "what is your purpose",
+            "why were you created",
+            "are you real",
+            "are you an ai",
+            "what kind of bot are you",
+            "your background",
+            "tell me about yourself",
+            "what's your deal",
+            "what are you for"
+        ],
+        "responses": [
+            "I'm your dedicated AI Program Assistant, created to guide you through every aspect of our artificial intelligence curriculum - from courses to career outcomes.",
+            "I'm an advanced chatbot specifically designed to provide comprehensive information about our AI education programs, admissions process, and career pathways.",
+            "As your virtual AI education consultant, my purpose is to help you navigate our programs, courses, and learning resources with personalized guidance."
+        ]
+    },
+    {
+        "tag": "ai_definition",
+        "patterns": [
+            "what is ai",
+            "define ai",
+            "what does ai mean",
+            "explain artificial intelligence",
+            "ai meaning",
+            "what's ai",
+            "tell me about ai",
+            "what ai means",
+            "what artificial intelligence is",
+            "can you define ai",
+            "description of ai",
+            "explain ai",
+            "what do you mean by ai",
+            "define artificial intelligence",
+            "what constitutes ai",
+            "ai definition",
+            "what's artificial intelligence",
+            "tell me what ai is",
+            "how would you define ai",
+            "meaning of artificial intelligence",
+            "what does ai stand for",
+            "explain ai simply",
+            "brief ai explanation",
+            "ai in simple terms",
+            "what exactly is ai",
+            "ai for beginners explanation",
+            "understanding ai basics",
+            "ai fundamental definition"
+        ],
+        "responses": [
+            "Artificial Intelligence (AI) involves creating computer systems that can perform tasks typically requiring human intelligence - like learning, decision-making, and problem-solving - through advanced algorithms and data processing.",
+            "At its core, AI is about developing machines that can think, learn, and adapt. This includes machine learning, natural language processing, computer vision, and robotics.",
+            "AI enables computers to mimic human cognitive functions. Our program covers everything from basic concepts to cutting-edge applications across industries."
+        ]
+    },
+    {
+        "tag": "admission_requirements",
+        "patterns": [
+            "admission requirements",
+            "what do i need to apply",
+            "application criteria",
+            "entry requirements",
+            "eligibility criteria",
+            "prerequisites for admission",
+            "what's needed to apply",
+            "application qualifications",
+            "minimum requirements",
+            "required qualifications",
+            "what you need to apply",
+            "application prerequisites",
+            "entry qualifications",
+            "admission criteria",
+            "application necessities",
+            "what's required to join",
+            "minimum qualifications",
+            "application must haves",
+            "what do applicants need",
+            "basic requirements",
+            "mandatory requirements",
+            "essential qualifications",
+            "application conditions",
+            "admission prerequisites",
+            "what's expected of applicants",
+            "application benchmarks"
+        ],
+        "responses": [
+            "Our admission requirements include: 1) High school diploma or equivalent 2) Basic math proficiency 3) Introductory programming knowledge (Python preferred) 4) Personal statement 5) Letters of recommendation",
+            "To apply, you'll need: Completed application form, academic transcripts, proof of math/programming fundamentals, statement of purpose, and two professional references.",
+            "The essential requirements are: Math through pre-calculus, basic programming experience, strong analytical skills, and passion for AI demonstrated through your application materials."
+        ]
+    },
+    {
+        "tag": "core_curriculum",
+        "patterns": [
+            "what courses are required",
+            "mandatory courses",
+            "core curriculum",
+            "required classes",
+            "essential courses",
+            "must take classes",
+            "program requirements",
+            "degree requirements",
+            "compulsory courses",
+            "what's in the core",
+            "main courses",
+            "fundamental classes",
+            "required subjects",
+            "core program",
+            "basic curriculum",
+            "main curriculum",
+            "required coursework",
+            "core classes",
+            "central curriculum",
+            "principal courses",
+            "obligatory classes",
+            "foundational curriculum",
+            "required program",
+            "core learning path",
+            "main requirements",
+            "essential curriculum"
+        ],
+        "responses": [
+            "Our core curriculum includes: 1) Python for AI 2) Mathematics for Machine Learning 3) Data Structures & Algorithms 4) Intro to AI & ML 5) Statistics for Data Science 6) Neural Networks 7) Ethics in AI",
+            "Every student completes these foundational courses: Programming Fundamentals, Linear Algebra, Probability, Machine Learning Basics, Data Visualization, and AI System Design.",
+            "The required core consists of: Computational Thinking, Discrete Math, Database Systems, ML Algorithms, Deep Learning, and a Capstone Project."
+        ]
+    },
+    {
+        "tag": "specialization_options",
+        "patterns": [
+            "what specializations are available",
+            "concentration options",
+            "focus areas",
+            "specialty tracks",
+            "program concentrations",
+            "available specializations",
+            "what can i specialize in",
+            "track options",
+            "emphasis choices",
+            "specialization paths",
+            "focus tracks",
+            "concentration paths",
+            "specialty areas",
+            "what are the tracks",
+            "available focuses",
+            "specialization choices",
+            "program tracks",
+            "available concentrations",
+            "specialty options",
+            "emphasis areas",
+            "focus options",
+            "what specialties exist",
+            "available tracks",
+            "concentration choices",
+            "specialization list",
+            "focus path options"
+        ],
+        "responses": [
+            "We offer five cutting-edge specializations: 1) Machine Learning Engineering 2) Natural Language Processing 3) Computer Vision 4) Robotics & Autonomous Systems 5) AI for Business",
+            "Choose from these advanced tracks: Deep Learning, AI System Architecture, Data Science, Intelligent Systems, or Human-AI Interaction.",
+            "Specialize in: Predictive Analytics, AI Security, Healthcare AI, Financial AI, or Computer Perception based on your career goals."
+        ]
+    },
+    {
+        "tag": "faculty_expertise",
+        "patterns": [
+            "who are the professors",
+            "faculty backgrounds",
+            "instructor qualifications",
+            "teacher expertise",
+            "professor experience",
+            "who teaches the courses",
+            "faculty credentials",
+            "instructor backgrounds",
+            "teacher qualifications",
+            "professor specialties",
+            "who are the lecturers",
+            "faculty specializations",
+            "instructor experience",
+            "teacher credentials",
+            "professor backgrounds",
+            "who delivers courses",
+            "faculty research areas",
+            "instructor specialties",
+            "teacher expertise areas",
+            "professor focus areas",
+            "lecturer qualifications",
+            "who are the educators",
+            "faculty achievements",
+            "instructor publications"
+        ],
+        "responses": [
+            "Our faculty includes: Dr. Chen (ex-Google Brain, Deep Learning), Dr. Rodriguez (NLP at Meta), Dr. Park (Computer Vision PhD from MIT), and Dr. Johnson (AI Ethics researcher).",
+            "You'll learn from: Machine Learning experts with industry experience at Amazon, Microsoft Research, and OpenAI, plus PhDs from top universities worldwide.",
+            "Faculty highlights: 3 IEEE Fellows, 5 former Chief AI Officers, 2 Turing Award nominees, and researchers published in Nature AI and NeurIPS."
+        ]
+    },
+    {
+        "tag": "career_services",
+        "patterns": [
+            "career support services",
+            "job placement help",
+            "employment assistance",
+            "career preparation",
+            "job search support",
+            "professional development",
+            "career guidance",
+            "employment preparation",
+            "job hunting help",
+            "career resources",
+            "job placement services",
+            "employment resources",
+            "career counseling",
+            "job search assistance",
+            "professional guidance",
+            "career planning",
+            "employment support",
+            "job market preparation",
+            "career workshops",
+            "job placement program",
+            "employment readiness",
+            "career development",
+            "job search resources",
+            "professional training",
+            "career advancement help"
+        ],
+        "responses": [
+            "Our comprehensive career services include: 1) Resume/LinkedIn reviews 2) Mock technical interviews 3) Portfolio building 4) Company networking events 5) Exclusive job board 6) Salary negotiation workshops",
+            "We provide: Dedicated career coach, AI recruiter connections, hackathon opportunities, internship placement, and annual career fair with 100+ tech companies.",
+            "Career support includes: Personalized career roadmap, technical interview prep, GitHub portfolio guidance, recruiter matching, and alumni mentorship program."
+        ]
+    },
+    {
+        "tag": "tech_requirements",
+        "patterns": [
+            "technical requirements",
+            "computer specs",
+            "hardware needed",
+            "software requirements",
+            "what computer do i need",
+            "laptop specifications",
+            "technical specifications",
+            "system requirements",
+            "computing needs",
+            "required hardware",
+            "necessary software",
+            "machine specifications",
+            "what specs do i need",
+            "computer requirements",
+            "laptop requirements",
+            "technical needs",
+            "system specs",
+            "computing requirements",
+            "hardware specifications",
+            "software needs",
+            "machine requirements",
+            "what technology is needed",
+            "computer necessities",
+            "technical prerequisites"
+        ],
+        "responses": [
+            "Minimum requirements: Laptop with 16GB RAM, 4-core CPU, dedicated GPU (NVIDIA preferred), 500GB SSD, and ability to run Docker containers.",
+            "You'll need: Windows 10/11 or macOS with Python 3.8+, ability to install ML libraries (TensorFlow/PyTorch), and reliable internet for cloud computing labs.",
+            "We recommend: Gaming laptop or workstation with NVIDIA RTX GPU, 32GB RAM, and dual monitors for optimal learning experience with our AI tools."
+        ]
+    },
+    {
+        "tag": "financial_support",
+        "patterns": [
+            "financial aid options",
+            "scholarships available",
+            "tuition assistance",
+            "payment plans",
+            "program costs",
+            "how to pay for it",
+            "financial support",
+            "funding options",
+            "scholarship opportunities",
+            "tuition help",
+            "payment options",
+            "financial assistance",
+            "cost assistance",
+            "funding resources",
+            "scholarship program",
+            "tuition reduction",
+            "payment assistance",
+            "financial resources",
+            "cost support",
+            "funding assistance",
+            "scholarship information",
+            "tuition payment help",
+            "financial help",
+            "cost reduction options"
+        ],
+        "responses": [
+            "We offer: Merit scholarships (up to 50% tuition), need-based grants, monthly payment plans, employer sponsorship programs, and military/veteran benefits.",
+            "Financial options include: Early enrollment discounts, referral scholarships, income-share agreements, and partnerships with lending institutions.",
+            "Available support: Diversity in AI scholarships, women in tech grants, corporate-sponsored seats, and deferred tuition plans for qualified students."
+        ]
+    },
+    {
+        "tag": "campus_life",
+        "patterns": [
+            "student life",
+            "campus experience",
+            "learning environment",
+            "program culture",
+            "student community",
+            "campus atmosphere",
+            "learning community",
+            "student experience",
+            "campus culture",
+            "program environment",
+            "student community life",
+            "campus vibe",
+            "learning atmosphere",
+            "student culture",
+            "campus community",
+            "program vibe",
+            "student environment",
+            "campus facilities",
+            "learning facilities",
+            "student resources",
+            "campus resources",
+            "program facilities",
+            "student support",
+            "campus activities"
+        ],
+        "responses": [
+            "Our vibrant community includes: AI hackathons, research symposiums, industry speaker series, study groups, and social events in our dedicated AI lab spaces.",
+            "Experience: Collaborative workspaces, 24/7 access to GPU clusters, student-led AI clubs, and regular networking events with local tech companies.",
+            "Campus life features: Modern computing labs, quiet study zones, mentorship programs, demo days, and connections to our 5,000+ AI alumni network."
+        ]
+    },
+    {
+        "tag": "alumni_success",
+        "patterns": [
+            "where do graduates work",
+            "alumni outcomes",
+            "graduate placements",
+            "employment outcomes",
+            "where students get jobs",
+            "graduate success",
+            "alumni careers",
+            "graduate employment",
+            "student outcomes",
+            "where alumni work",
+            "graduate destinations",
+            "employment statistics",
+            "alumni achievements",
+            "graduate results",
+            "student placements",
+            "where graduates go",
+            "alumni placements",
+            "graduate careers",
+            "student employment",
+            "alumni employment",
+            "graduate outcomes",
+            "where students end up",
+            "alumni destinations",
+            "career outcomes"
+        ],
+        "responses": [
+            "Our graduates work at: Google AI, OpenAI, NVIDIA, Tesla, Amazon AWS, Microsoft Research, and top AI startups - with average starting salary of $112,000.",
+            "90% of graduates secure AI roles within 3 months at companies like IBM Watson, Facebook AI, Intel AI, and leading healthcare/fintech AI firms.",
+            "Alumni hold positions as: ML Engineers (45%), Data Scientists (30%), AI Researchers (15%), and AI Product Managers (10%) across diverse industries."
+        ]
+    },
+    {
+        "tag": "application_steps",
+        "patterns": [
+            "how to apply",
+            "application process",
+            "admission steps",
+            "enrollment process",
+            "how to enroll",
+            "getting admitted",
+            "application procedure",
+            "admission procedure",
+            "enrollment steps",
+            "how to get in",
+            "steps to apply",
+            "application requirements",
+            "admission process",
+            "enrollment procedure",
+            "how admission works",
+            "application timeline",
+            "admission steps",
+            "enrollment requirements",
+            "how applications work",
+            "steps for admission",
+            "application phases",
+            "admission phases",
+            "enrollment phases",
+            "application components"
+        ],
+        "responses": [
+            "4 simple steps: 1) Online application 2) Technical assessment 3) Admissions interview 4) Enrollment deposit. Most complete the process in 2-3 weeks.",
+            "Our streamlined process: Submit application → Complete coding challenge → Interview with advisor → Receive decision → Secure your seat with deposit.",
+            "To apply: 1) Create account 2) Upload documents 3) Complete assessment 4) Interview 5) Get decision within 10 business days."
+        ]
+    },
+    {
+        "tag": "program_comparison",
+        "patterns": [
+            "how does this compare",
+            "versus other programs",
+            "better than others",
+            "program advantages",
+            "why choose this",
+            "comparison with others",
+            "how is this different",
+            "unique aspects",
+            "what makes this special",
+            "competitive advantages",
+            "why this program",
+            "versus alternatives",
+            "compare to others",
+            "how stands out",
+            "special features",
+            "distinguishing factors",
+            "what sets apart",
+            "comparative advantages",
+            "why pick this",
+            "versus competitors",
+            "how differs from others",
+            "unique benefits",
+            "superior aspects",
+            "competitive edge"
+        ],
+        "responses": [
+            "Key advantages: 1) Industry-aligned curriculum 2) Practitioner faculty 3) Hands-on projects 4) Career support 5) Strong alumni network 6) Cutting-edge specializations",
+            "We stand out through: Real-world project experience, personalized mentorship, corporate partnerships, and our focus on applied AI rather than just theory.",
+            "Compared to others: Our program offers more practical hours (600+), direct industry connections, and a project portfolio requirement that impresses employers."
+        ]
+    },
+    {
+        "tag": "time_commitment",
+        "patterns": [
+            "time required",
+            "weekly hours",
+            "time investment",
+            "hours per week",
+            "time expectation",
+            "program workload",
+            "study time",
+            "learning hours",
+            "time demands",
+            "weekly commitment",
+            "time needed",
+            "hours required",
+            "study commitment",
+            "learning commitment",
+            "time expectation",
+            "weekly workload",
+            "study demands",
+            "learning demands",
+            "time necessary",
+            "hours per day",
+            "daily commitment",
+            "time allocation",
+            "study hours",
+            "learning time"
+        ],
+        "responses": [
+            "Expect: 15-20 hours/week for full-time (6 month completion), 8-10 hours/week for part-time (12 month completion), plus project work.",
+            "Time commitment: 4-6 hours daily for immersive track, 10-12 hours weekly for flexible track, with additional time for capstone projects.",
+            "Our program requires: 600 total hours (lectures + labs + projects) which most complete in 6-12 months depending on pace."
+        ]
+    },
+    {
+        "tag": "prerequisite_skills",
+        "patterns": [
+            "what should i know",
+            "preparation needed",
+            "skills required",
+            "knowledge prerequisites",
+            "what to learn first",
+            "prep work",
+            "required knowledge",
+            "necessary skills",
+            "preparatory skills",
+            "what to study first",
+            "prior knowledge",
+            "foundational skills",
+            "preparatory knowledge",
+            "required preparation",
+            "what to know before",
+            "expected knowledge",
+            "pre-program skills",
+            "entry skills",
+            "pre-course knowledge",
+            "background needed",
+            "preliminary skills",
+            "what to prepare",
+            "expected preparation",
+            "prior learning"
+        ],
+        "responses": [
+            "Before starting: Comfort with Python, high school math (algebra, stats), basic algorithms, and willingness to learn mathematical concepts.",
+            "We expect: Programming fundamentals (variables, loops, functions), high school level math, and logical thinking skills. We offer prep materials.",
+            "Required foundation: Problem-solving skills, basic coding experience (any language), and math through pre-calculus. No prior AI knowledge needed."
+        ]
+    },
+    {
+        "tag": "international_students",
+        "patterns": [
+            "international students",
+            "visa requirements",
+            "foreign students",
+            "study visa",
+            "international applicants",
+            "overseas students",
+            "non-native students",
+            "study permit",
+            "international admissions",
+            "foreign applicants",
+            "visa process",
+            "study abroad",
+            "international requirements",
+            "visa information",
+            "foreign admissions",
+            "non-resident students",
+            "study visa process",
+            "international enrollment",
+            "overseas applicants",
+            "visa assistance",
+            "foreign enrollment",
+            "international process",
+            "study permit process",
+            "non-citizen students"
+        ],
+        "responses": [
+            "For international students: We provide I-20 for F-1 visas, have dedicated international advisors, and offer TOEFL/IELTS waivers for qualified applicants.",
+            "We welcome students worldwide! Our international office assists with visas, housing, and cultural adjustment. 30% of our students come from overseas.",
+            "International requirements: Equivalent academic credentials, proof of English proficiency (unless from English-speaking country), and financial documentation."
+        ]
+    },
+    {
+        "tag": "certification_value",
+        "patterns": [
+            "is it accredited",
+            "recognized certification",
+            "industry recognition",
+            "program accreditation",
+            "certification value",
+            "degree recognition",
+            "is this certified",
+            "official recognition",
+            "academic recognition",
+            "certification worth",
+            "program reputation",
+            "is this legitimate",
+            "recognized degree",
+            "accredited program",
+            "certification acceptance",
+            "industry respect",
+            "program standing",
+            "is this credible",
+            "recognized credentials",
+            "academic credibility",
+            "certification standing",
+            "program validation",
+            "is this respected",
+            "certification reputation"
+        ],
+        "responses": [
+            "Our program is: Regionally accredited, recognized by the AI Industry Association, and our graduates are hired by top tech companies worldwide.",
+            "Accreditation: Recognized by the Department of Education, with curriculum aligned to IEEE and ACM AI standards. Our certificate opens doors globally.",
+            "Industry respect: Our certification is valued by employers, with graduates at FAANG companies, and we're ranked among top AI programs nationally."
+        ]
+    },
+    {
+        "tag": "hands_on_projects",
+        "patterns": [
+            "project work",
+            "hands on experience",
+            "practical applications",
+            "real world projects",
+            "applied learning",
+            "portfolio projects",
+            "coding projects",
+            "building projects",
+            "practical work",
+            "actual implementation",
+            "project experience",
+            "applied projects",
+            "real projects",
+            "portfolio work",
+            "hands on coding",
+            "practical experience",
+            "building applications",
+            "project based",
+            "implementation work",
+            "applied coding",
+            "real coding",
+            "portfolio building",
+            "practical implementation",
+            "actual projects"
+        ],
+        "responses": [
+            "You'll complete: 5 portfolio projects including a sentiment analysis tool, recommendation system, computer vision application, and your capstone project.",
+            "Project highlights: Build a working chatbot, develop a predictive model, create a computer vision prototype, and solve a real-world problem for your capstone.",
+            "Our project-based approach includes: Monthly hackathons, quarterly demo days, and 4 major projects that form your professional AI portfolio."
+        ]
+    },
+    {
+        "tag": "further_learning",
+        "patterns": [
+            "what after this",
+            "next steps after",
+            "continuing education",
+            "further learning",
+            "after graduation",
+            "what to do next",
+            "advanced learning",
+            "next level",
+            "post program",
+            "after completion",
+            "future learning",
+            "continued education",
+            "what comes next",
+            "after this program",
+            "subsequent steps",
+            "ongoing education",
+            "next educational steps",
+            "follow up learning",
+            "after finishing",
+            "subsequent learning",
+            "advanced studies",
+            "what to study next",
+            "continuing studies",
+            "lifelong learning"
+        ],
+        "responses": [
+            "After completing: Many pursue our Advanced AI Certificate, specialize further with micro-credentials, or enter our industry partner apprenticeship programs.",
+            "Next steps: 1) Enter workforce 2) Pursue specialization 3) Continue to Master's 4) Join research team 5) Start AI business with our incubator support.",
+            "We offer: Advanced modules in Quantum ML, Neurosymbolic AI, and other cutting-edge areas, plus pathways to graduate degrees with partner universities."
+        ]
+    },
+    {
+        "tag": "miscellaneous_questions",
+        "patterns": [
+            "i have another question",
+            "something else",
+            "different question",
+            "unrelated question",
+            "other inquiry",
+            "another matter",
+            "separate question",
+            "new question",
+            "different topic",
+            "other question",
+            "change subject",
+            "switch topics",
+            "not about this",
+            "something different",
+            "off topic",
+            "other subject",
+            "new topic",
+            "different matter",
+            "another topic",
+            "separate matter",
+            "unrelated matter",
+            "other issue",
+            "change focus",
+            "new subject"
+        ],
+        "responses": [
+            "I'm happy to help with other questions. What would you like to know about?",
+            "Let me know what other information you need about our AI programs.",
+            "I can assist with various topics - admissions, curriculum, careers. What's your question?"
+        ]
+    },
+    {
+        "tag": "error_resolution",
+        "patterns": [
+            "that's not what i asked",
+            "you misunderstood",
+            "wrong answer",
+            "not what i meant",
+            "incorrect response",
+            "misinterpreted question",
+            "that doesn't help",
+            "irrelevant answer",
+            "off track",
+            "not helpful",
+            "missed the point",
+            "wrong information",
+            "doesn't answer question",
+            "not what i wanted",
+            "inaccurate response",
+            "unhelpful answer",
+            "didn't address question",
+            "missing the mark",
+            "not relevant",
+            "doesn't apply",
+            "not on topic",
+            "not useful",
+            "didn't help",
+            "wrong direction"
+        ],
+        "responses": [
+            "I apologize for the confusion. Could you please rephrase your question so I can better assist you?",
+            "Let me try again. Could you clarify what information you're looking for?",
+            "I want to make sure I understand correctly. Would you mind asking your question differently?"
+        ]
+    },
+    {
+        "responses": [
+            "I get reborn after every compilation",
+            "hey!",
+            "my owners are averagely 20 years!"
+        ],
+        "tag": "age",
+        "patterns": [
+            "how old",
+            "how old are you?",
+            "what is your age",
+            "how old are you",
+            "age?"
+        ]
+    },
+    {
+        "responses": [
+            "It seems that you are suffering from common cold"
+        ],
+        "tag": "common cold symptoms",
+        "patterns": [
+            "Runny or stuffy nose",
+            "Sore throat",
+            "Cough",
+            "Congestion",
+            "Slight body aches or a mild headache",
+            "Sneezing",
+            "Low-grade fever",
+            "Generally feeling unwell (malaise)"
+        ]
+    },
+    {
+        "responses": [
+            "It seems that you are suffering from fever"
+        ],
+        "tag": "fever symptoms",
+        "patterns": [
+            "Sweating",
+            "Chills and shivering",
+            "Headache",
+            "Muscle aches",
+            "Loss of appetite",
+            "Irritability",
+            "Dehydration",
+            "General weakness"
+        ]
+    },
+    {
+        "responses": [
+            "It seems that you are suffering from Diabetes"
+        ],
+        "tag": "Diabetes symptoms",
+        "patterns": [
+            "increased hunger",
+            "increased thirst",
+            "weight loss",
+            "frequent urination",
+            "blurry vision",
+            "extreme fatigue"
+        ]
+    },
+    {
+        "responses": [
+            "It seem that you are suffering from depression"
+        ],
+        "tag": "Depression symptoms",
+        "patterns": [
+            "Hopeless outlook",
+            "Lost interest",
+            "Increased fatigue",
+            "sleep problem",
+            "Anxiety",
+            "change in weight",
+            "Looking at death"
+        ]
+    },
+    {
+        "responses": [
+            "It seem that you are suffering from Asthma"
+        ],
+        "tag": "Asthma symptoms",
+        "patterns": [
+            "coughing",
+            "tightness in the chest",
+            "shortness of breath",
+            "difficulty talking",
+            "panic",
+            "fatigue"
+        ]
+    },
+    {
+        "responses": [
+            "medicines you can consume : Dextromethorphan,Decongestant,Diphenhydramine,Crocin Cold & Flu Max, preventions that you must follow :Wash your hands,Avoid touching your face,Clean frequently used surfaces,Use hand sanitizers,SUGGESTED FOODS ARE:Garlic,Vitamin C–containing fruits,Leafy greens,Broccoli,Oatmeal,Spices,Chicken Soup"
+        ],
+        "tag": "common cold prevention",
+        "patterns": [
+            "What medicines can I buy to help me with my common cold?",
+            "tell me some prevention method from common cold",
+            "What should I eat or drink if i am suffering from common cold?",
+            "How can I keep from getting a cold or the flu?"
+        ]
+    },
+    {
+        "responses": [
+            "medicines you can consume : acetaminophen ,ibuprofen,aspirin,Crocin Cold & Flu Max, prevention that you must follow :Wash your hands,Cover your mouth when you cough and your nose when you sneeze,Clean frequently used surfaces,Avoid sharing cups, glasses, and eating utensils with other people.,SUGGESTED FOODS ARE:Garlic,Vitamin C–containing fruits,Leafy greens,Broccoli,Oatmeal,Spices,Chicken Soup"
+        ],
+        "tag": "fever prevention",
+        "patterns": [
+            "What medicines can I buy to help me with my fever?",
+            "tell me some prevention method from fever",
+            "What should I eat or drink if i am suffering from fever?",
+            "How can I keep from getting a fever?"
+        ]
+    },
+    {
+        "responses": [
+            "medicines you can consume : Insulin ,Amylinomimetic drug,Dipeptidyl peptidase-4 (DPP-4) inhibitor, prevention that you must follow :Cut Sugar and Refined Carbs From Your Diet,Work Out Regularly,Drink Water as Your Primary Beverage,Lose Weight If You’re Overweight or Obese,Quit Smoking, Follow a Very-Low-Carb Diet,Watch Portion Sizes,SUGGESTED FOODS ARE:Leafy greens,Avocados,Eggs"
+        ],
+        "tag": "diabetes prevention",
+        "patterns": [
+            "What medicines can I buy to help me with my diabetes?",
+            "tell me some prevention method from diabetes",
+            "What should I eat or drink if i am suffering from diabetes?",
+            "How can I keep from getting diabetes?"
+        ]
+    },
+    {
+        "responses": [
+            "medicines you can consume :  brexpiprazole, quetiapine,olanzapine, prevention that you must follow :Exercise regularly,Cut back on social media time,Drink Water as Your Primary Beverage,Build strong relationships,Minimize your daily choices, Follow a Very-Low-Carb Diet,SUGGESTED FOODS ARE:Get Enough Vitamin D,Include Omega-3 Fatty Acids,Beans and legumes"
+        ],
+        "tag": "depression prevention",
+        "patterns": [
+            "What medicines can I buy to help me with my depression?",
+            "tell me some prevention method from depression",
+            "What should I eat or drink if i am suffering from depression?",
+            "How can I keep from getting depression?"
+        ]
+    },
+    {
+        "responses": [
+            "medicines you can consume : epinephrine,anticholinergic,Proair HFA, prevention that you must follow : Identify Asthma Triggers, Stay Away From Allergens,Avoid Smoke of Any Type,SUGGESTED FOODS ARE:carrots,juice,eggs,broccoli,cantaloupe,milk"
+        ],
+        "tag": "asthma prevention",
+        "patterns": [
+            "What medicines can I buy to help me with my asthma?",
+            "tell me some prevention method from asthma",
+            "What should I eat or drink if i am suffering from asthma?",
+            "How can I keep from getting asthma?"
+        ]
+    },
+    {
+        "responses": [
+            "You can contact various doctors here for any kind of consultation: 1. https://www.1mg.com/online-doctor-consultation, 2. https://www.tatahealth.com/online-doctor-consultation/general-physician, 3. https://www.doconline.com/, or you can pay a visit to your local area doctor or family doctor."
+        ],
+        "tag": "Consultation",
+        "patterns": [
+            "who should i contact for consultation?",
+            "is there any doctor available?",
+            "can you give me some suggestions for doctor consultations?",
+            "can you set up a meeting with a doctor for consultation?",
+            "is there any doctor available for consultation"
+        ]
+    },
+    {
+        "responses": [
+            "For weight loss, combine cardio exercises like jogging and cycling with strength training. Yoga and Pilates improve flexibility. Strength training exercises include squats, lunges, and push-ups. Cardio workouts like running and swimming boost heart health."
+        ],
+        "tag": "exercise_recommendation",
+        "patterns": [
+            "Best exercises for weight loss",
+            "Exercises to improve flexibility",
+            "Strength training routines",
+            "Cardio workouts"
+        ]
+    },
+    {
+        "responses": [
+            "Healthy snacks include fruits, nuts, and yogurt. Try grilled vegetables, salads, and lean proteins for low-calorie meals. A balanced vegan diet includes beans, tofu, and plenty of vegetables. Gluten-free options include quinoa, rice, and gluten-free oats."
+        ],
+        "tag": "nutrition_advice",
+        "patterns": [
+            "Healthy snacks ideas",
+            "Low-calorie meal recipes",
+            "Vegan diet tips",
+            "Gluten-free eating"
+        ]
+    },
+    {
+        "responses": [
+            "Improve sleep quality by keeping a consistent sleep schedule and creating a relaxing bedtime routine. Limit screen time before sleep. If you have insomnia, consult a healthcare provider. Adults generally need 7-9 hours of sleep per night for optimal health."
+        ],
+        "tag": "sleep_health",
+        "patterns": [
+            "How to improve sleep quality",
+            "Dealing with insomnia",
+            "Ideal sleep duration",
+            "Creating a bedtime routine"
+        ]
+    },
+    {
+        "responses": [
+            "Meditation reduces stress, improves focus, and promotes emotional well-being. Mindfulness involves being present in the moment, reducing anxiety. Natural remedies like herbal teas and essential oils can alleviate minor ailments. Holistic practices include acupuncture, chiropractic care, and massage therapy."
+        ],
+        "tag": "holistic_health",
+        "patterns": [
+            "Benefits of meditation",
+            "Practicing mindfulness",
+            "Natural remedies for common ailments",
+            "Holistic wellness practices"
+        ]
+    },
+    {
+        "responses": [
+            "Check travel vaccinations needed for your destination. To prevent jet lag, adjust your sleep schedule before departure. Stay hydrated, wash hands frequently, and eat balanced meals while traveling. Consider travel insurance to cover unexpected medical expenses abroad."
+        ],
+        "tag": "travel_health",
+        "patterns": [
+            "Travel vaccinations",
+            "Jet lag remedies",
+            "Staying healthy while traveling",
+            "Travel insurance advice"
+        ]
+    },
+    {
+        "responses": [
+            "For minor burns/cuts, clean the wound, apply antiseptic, and cover with a bandage. CPR involves chest compressions and rescue breaths. Signs of a stroke include sudden numbness, confusion, and difficulty speaking. Heart attack signs include chest pain, shortness of breath, and nausea."
+        ],
+        "tag": "first_aid",
+        "patterns": [
+            "Basic first aid techniques",
+            "Dealing with minor burns/cuts",
+            "CPR instructions",
+            "Recognizing signs of a stroke/heart attack"
+        ]
+    },
+    {
+        "responses": [
+            "Healthy aging involves regular exercise, balanced diet, and social engagement. Manage arthritis with gentle exercises, heat/cold therapy, and medications. Cognitive exercises like puzzles and reading maintain brain health. Prevent falls by removing hazards, using handrails, and regular eye check-ups."
+        ],
+        "tag": "aging_health",
+        "patterns": [
+            "Healthy aging tips",
+            "Managing arthritis in old age",
+            "Cognitive exercises for seniors",
+            "Preventing falls in the elderly"
+        ]
+    },
+    {
+        "responses": [
+            "Safe sex involves using condoms and getting tested regularly. STD prevention includes vaccinations and practicing monogamy. Regular check-ups detect issues early. Don't hesitate to seek medical advice for any sexual health concerns."
+        ],
+        "tag": "sexual_health",
+        "patterns": [
+            "Safe sex practices",
+            "STD prevention",
+            "Importance of regular check-ups",
+            "Handling sexual health concerns"
+        ]
+    },
+    {
+        "responses": [
+            "Gargling with warm salt water helps sore throat. Honey and ginger can alleviate allergies. DIY face masks with honey and oatmeal improve skin. Chamomile and lavender teas promote relaxation and sleep."
+        ],
+        "tag": "home_remedies",
+        "patterns": [
+            "Home remedies for sore throat",
+            "Natural remedies for allergies",
+            "DIY face masks for skin care",
+            "Herbal teas for relaxation"
+        ]
+    },
+    {
+        "responses": [
+            "Stress relief methods include deep breathing, yoga, and meditation. Mind-body techniques like tai chi promote relaxation. Healthy coping mechanisms involve talking to a friend, journaling, or hobbies. In the workplace, take breaks, delegate tasks, and communicate concerns."
+        ],
+        "tag": "stress_management",
+        "patterns": [
+            "Stress relief techniques",
+            "Mind-body relaxation methods",
+            "Healthy coping mechanisms",
+            "Workplace stress management"
+        ]
+    },
+    {
+        "responses": [
+            "Common allergens include pollen, dust mites, pet dander, certain foods, and insect stings. If you suspect allergies, consult an allergist for proper diagnosis and management."
+        ],
+        "tag": "allergies",
+        "patterns": [
+            "Common allergens",
+            "Symptoms of allergies",
+            "How to manage allergies",
+            "Allergy testing"
+        ]
+    },
+    {
+        "responses": [
+            "Pregnancy symptoms vary, but common signs include missed periods, morning sickness, fatigue, and breast tenderness. Prenatal care is crucial for a healthy pregnancy. Consult an OB-GYN for personalized guidance."
+        ],
+        "tag": "pregnancy",
+        "patterns": [
+            "Pregnancy symptoms",
+            "Prenatal care",
+            "What to eat during pregnancy",
+            "Labor and delivery"
+        ]
+    },
+    {
+        "responses": [
+            "Childhood vaccinations are essential to protect against serious diseases. Encourage a balanced diet rich in fruits, vegetables, and whole grains for your child's health. Regular pediatric check-ups are important for monitoring growth and development."
+        ],
+        "tag": "child_health",
+        "patterns": [
+            "Childhood vaccinations",
+            "Healthy diet for kids",
+            "Childhood illnesses",
+            "Parenting tips"
+        ]
+    },
+    {
+        "responses": [
+            "Elderly care services provide support for seniors in various ways, from home healthcare to assisted living facilities. Managing chronic conditions often requires regular medications and lifestyle modifications. Fall prevention includes removing hazards at home and regular exercise."
+        ],
+        "tag": "elderly_care",
+        "patterns": [
+            "Elderly care services",
+            "Managing chronic conditions in elderly",
+            "Fall prevention tips",
+            "Caring for aging parents"
+        ]
+    },
+    {
+        "responses": [
+            "Several platforms offer online therapy with licensed therapists. Mental health hotlines provide immediate support. Deep breathing, exercise, and talking to a trusted friend can help manage anxiety and depression. Managing stress includes time management and relaxation techniques."
+        ],
+        "tag": "mental_health_support",
+        "patterns": [
+            "Online therapy options",
+            "Mental health hotlines",
+            "Self-help techniques for anxiety/depression",
+            "Coping with stress"
+        ]
+    },
+    {
+        "responses": [
+            "Post-surgery rehabilitation often involves tailored exercises to regain strength and mobility. Physical therapy aids in recovery by improving flexibility and reducing pain. When choosing a rehabilitation center, consider their expertise, facilities, and patient reviews."
+        ],
+        "tag": "rehabilitation",
+        "patterns": [
+            "Post-surgery rehabilitation",
+            "Recovery exercises",
+            "Physical therapy benefits",
+            "Choosing a rehabilitation center"
+        ]
+    },
+    {
+        "responses": [
+            "Regular sexual health screenings are important for early detection of infections and diseases. Birth control options include pills, condoms, and intrauterine devices (IUDs). STI prevention involves safe practices and regular testing. Don't hesitate to seek counseling for any sexual health concerns."
+        ],
+        "tag": "sexual_health",
+        "patterns": [
+            "Sexual health screenings",
+            "Birth control options",
+            "STI prevention",
+            "Counseling for sexual health concerns"
+        ]
+    },
+    {
+        "responses": [
+            "Treatment options for substance abuse include therapy, counseling, and support groups like Alcoholics Anonymous (AA) and Narcotics Anonymous (NA). Counseling is essential for addressing underlying issues. Signs of substance abuse include changes in behavior, neglecting responsibilities, and withdrawal symptoms."
+        ],
+        "tag": "substance_abuse",
+        "patterns": [
+            "Substance abuse treatment options",
+            "Support groups for addiction",
+            "Counseling for substance abuse",
+            "Signs of substance abuse"
+        ]
+    },
+    {
+        "responses": [
+            "Managing diabetes involves medication, monitoring blood sugar levels, and lifestyle changes. Coping with cancer treatments may include chemotherapy, radiation, and emotional support. Living with arthritis requires exercise, weight management, and pain relief techniques. Heart disease management involves medication, dietary changes, and regular exercise."
+        ],
+        "tag": "chronic_conditions",
+        "patterns": [
+            "Managing diabetes",
+            "Coping with cancer treatments",
+            "Living with arthritis",
+            "Heart disease management"
+        ]
+    },
+    {
+        "responses": [
+            "Good dental hygiene includes brushing, flossing, and regular dental check-ups. Common dental problems include cavities, gum disease, and tooth sensitivity. Choose a dentist based on recommendations, expertise, and your comfort level. Regular dental check-ups prevent issues and maintain oral health."
+        ],
+        "tag": "dental_care",
+        "patterns": [
+            "Dental hygiene tips",
+            "Common dental problems",
+            "Choosing a dentist",
+            "Importance of regular dental check-ups"
+        ]
+    },
+    {
+        "responses": [
+            "I'm not a doctor, but I can help you find information about your symptoms. Please consult a healthcare professional for an accurate diagnosis."
+        ],
+        "tag": "symptoms",
+        "patterns": [
+            "I have symptoms",
+            "What are the symptoms of [condition]?",
+            "I feel [symptom]",
+            "Do I have [condition]?"
+        ]
+    },
+    {
+        "responses": [
+            "I'm really sorry to hear that you're in distress, but I'm just a computer program and can't provide emergency assistance. Please call your local emergency number immediately."
+        ],
+        "tag": "emergency",
+        "patterns": [
+            "I need urgent help",
+            "Emergency assistance",
+            "Call an ambulance",
+            "I'm having a medical emergency"
+        ]
+    },
+    {
+        "responses": [
+            "I can provide general information about medications, but it's important to consult a doctor or pharmacist for specific medical advice regarding your medication."
+        ],
+        "tag": "medication",
+        "patterns": [
+            "What is [medication] used for?",
+            "Dosage of [medication]",
+            "Side effects of [medication]",
+            "Can I take [medication] with [another medication]?"
+        ]
+    },
+    {
+        "responses": [
+            "You can book a doctor's appointment online through various platforms like Practo (https://www.practo.com/), Zocdoc (https://www.zocdoc.com/), or through the official website of your local healthcare provider."
+        ],
+        "tag": "appointment",
+        "patterns": [
+            "How can I book an appointment?",
+            "Schedule a doctor's appointment",
+            "Availability of doctors",
+            "Book a consultation"
+        ]
+    },
+    {
+        "responses": [
+            "Health insurance coverage can vary. It's best to contact your insurance provider directly for specific details about your policy, coverage, and benefits."
+        ],
+        "tag": "insurance",
+        "patterns": [
+            "How does health insurance work?",
+            "What does my insurance cover?",
+            "Find health insurance plans",
+            "Insurance policy details"
+        ]
+    },
+    {
+        "responses": [
+            "I'm really sorry to hear that you're feeling this way. It's important to talk to someone who can help, such as a mental health professional or a trusted person in your life."
+        ],
+        "tag": "mental_health",
+        "patterns": [
+            "I feel anxious",
+            "I'm stressed out",
+            "Dealing with depression",
+            "Need someone to talk to"
+        ]
+    },
+    {
+        "responses": [
+            "A balanced diet includes a variety of foods such as fruits, vegetables, whole grains, lean proteins, and healthy fats. For personalized nutrition advice, it's best to consult a registered dietitian."
+        ],
+        "tag": "diet_nutrition",
+        "patterns": [
+            "What's a balanced diet?",
+            "Healthy eating tips",
+            "Nutrition advice",
+            "Diet for [specific condition]"
+        ]
+    },
+    {
+        "responses": [
+            "Regular physical activity is important for overall health. The best exercises depend on your fitness level and health condition. It's advisable to consult a fitness expert or a healthcare provider for personalized exercise recommendations."
+        ],
+        "tag": "exercise",
+        "patterns": [
+            "Best exercises for [specific condition]",
+            "How often should I exercise?",
+            "Exercise routines",
+            "Fitness tips"
+        ]
+    },
+    {
+        "responses": [
+            "Vaccination schedules can vary based on your location and age group. It's best to check with your local healthcare provider or government health department for the most up-to-date vaccination information."
+        ],
+        "tag": "vaccination",
+        "patterns": [
+            "Vaccination schedule",
+            "Where can I get vaccinated?",
+            "Vaccine information",
+            "Vaccines for adults/children"
+        ]
+    },
+    {
+        "responses": [
+            "To file a health insurance claim, you'll typically need to contact your insurance provider and provide necessary documents such as medical bills and receipts. The exact process can vary, so it's best to check with your insurance company for specific instructions."
+        ],
+        "tag": "insurance_claim",
+        "patterns": [
+            "How to file a health insurance claim?",
+            "Claim process",
+            "Required documents for insurance claim",
+            "Claim status"
+        ]
+    },
+    {
+        "responses": [
+            "Self-care can include reading, taking walks, or practicing hobbies. Relaxation techniques like deep breathing and meditation can reduce stress. Mindfulness exercises involve being present in the moment. Creating a calm home environment and setting boundaries can help manage stress."
+        ],
+        "tag": "self_care_tips",
+        "patterns": [
+            "Self-care ideas",
+            "Relaxation techniques",
+            "Mindfulness exercises",
+            "Managing stress at home"
+        ]
+    },
+    {
+        "responses": [
+            "Reading nutrition labels helps you make informed food choices. Focus on serving size, calories, and nutrients. Check ingredient lists for hidden sugars and unhealthy fats. Choose whole foods, fruits, vegetables, and lean proteins for a balanced diet."
+        ],
+        "tag": "nutrition_labels",
+        "patterns": [
+            "How to read nutrition labels",
+            "Understanding food labels",
+            "Interpreting ingredient lists",
+            "Healthy food choices"
+        ]
+    },
+    {
+        "responses": [
+            "Symptoms of sleep disorders include difficulty falling or staying asleep. Insomnia treatment may involve therapy or medications. Sleep apnea may require CPAP machines or surgery. Improve sleep quality by creating a bedtime routine, limiting screen time, and maintaining a comfortable sleep environment."
+        ],
+        "tag": "sleep_disorders",
+        "patterns": [
+            "Symptoms of sleep disorders",
+            "Treatment for insomnia",
+            "Dealing with sleep apnea",
+            "Improving sleep quality"
+        ]
+    },
+    {
+        "responses": [
+            "A healthy lifestyle boosts the immune system. Eat a balanced diet with plenty of fruits, vegetables, and whole grains. Regular exercise enhances immunity. Aim for 7-9 hours of sleep to support a healthy immune system."
+        ],
+        "tag": "immune_system",
+        "patterns": [
+            "Boosting the immune system",
+            "Foods that strengthen immunity",
+            "Regular exercise and immunity",
+            "Getting enough sleep for a healthy immune system"
+        ]
+    },
+    {
+        "responses": [
+            "Warm-up before exercising and cool down afterward to prevent injuries. Rest, ice, compression, and elevation (RICE) can help treat muscle strains. Joint pain may require rest and pain relief. Consult a healthcare professional for proper diagnosis and rehabilitation after sports injuries."
+        ],
+        "tag": "exercise_injuries",
+        "patterns": [
+            "Preventing exercise-related injuries",
+            "Treating muscle strains",
+            "Dealing with joint pain",
+            "Recovering from sports injuries"
+        ]
+    },
+    {
+        "responses": [
+            "Healthy weight loss involves a balanced diet and regular exercise. Maintain a healthy weight by adopting a sustainable lifestyle. BMI measures body fat based on height and weight. Avoiding processed foods, sugary drinks, and staying active can prevent weight gain."
+        ],
+        "tag": "weight_management",
+        "patterns": [
+            "Healthy weight loss strategies",
+            "Maintaining a healthy weight",
+            "Understanding body mass index (BMI)",
+            "Weight gain causes and prevention"
+        ]
+    },
+    {
+        "responses": [
+            "Health apps can track fitness, nutrition, and mental health. Wearable devices monitor activity, heart rate, and sleep text. Virtual doctor visits offer convenient consultations. Online fitness programs provide guided workouts and nutrition plans."
+        ],
+        "tag": "digital_health",
+        "patterns": [
+            "Using health apps",
+            "Benefits of wearable devices",
+            "Virtual doctor visits",
+            "Online fitness programs"
+        ]
+    },
+    {
+        "responses": [
+            "Menstrual cramps can be relieved with hot water bottles and relaxation techniques. Maintain good menstrual hygiene by changing pads or tampons regularly. Irregular menstrual cycles may be due to hormonal imbalances. PMS symptoms can be managed with a balanced diet and stress reduction."
+        ],
+        "tag": "menstrual_health",
+        "patterns": [
+            "Managing menstrual cramps",
+            "Healthy menstrual hygiene practices",
+            "Irregular menstrual cycles",
+            "PMS symptoms and remedies"
+        ]
+    },
+    {
+        "responses": [
+            "Organ donation saves lives by providing organs to patients in need. Sign up as an organ donor through local organizations or online registries. Common myths include age limits and medical complications, which are often inaccurate. Organ transplant processes involve evaluations, matching, and surgery."
+        ],
+        "tag": "organ_donation",
+        "patterns": [
+            "Importance of organ donation",
+            "How to become an organ donor",
+            "Common myths about organ donation",
+            "Organ transplant process"
+        ]
+    },
+    {
+        "responses": [
+            "Caregivers need emotional and practical support. Managing stress is crucial; respite care offers short-term relief. Legal and financial resources include power of attorney and assistance programs. Reach out to local caregiver support groups for guidance."
+        ],
+        "tag": "caregiver_support",
+        "patterns": [
+            "Support for caregivers",
+            "Managing caregiver stress",
+            "Respite care options",
+            "Legal and financial resources for caregivers"
+        ]
+    },
+    {
+        "responses": [
+            "Fertility awareness methods track menstrual cycles for natural family planning. Contraception options include pills, condoms, and intrauterine devices. Regular reproductive health screenings detect issues early. Infertility treatments may include medications, surgery, or assisted reproductive technologies."
+        ],
+        "tag": "reproductive_health",
+        "patterns": [
+            "Fertility awareness methods",
+            "Contraception options",
+            "Reproductive health screenings",
+            "Dealing with infertility"
+        ]
+    },
+    {
+        "responses": [
+            "Addiction recovery involves therapy, support groups, and lifestyle changes. 12-step programs like AA provide structured support. Therapies like cognitive-behavioral therapy address underlying issues. Relapse prevention includes avoiding triggers and building a strong support network."
+        ],
+        "tag": "addiction_recovery",
+        "patterns": [
+            "Support for addiction recovery",
+            "12-step programs",
+            "Therapies for addiction",
+            "Relapse prevention strategies"
+        ]
+    },
+    {
+        "responses": [
+            "Patients with dementia need patience and understanding. Effective communication involves clear, simple language and active listening. Assistive devices like walkers improve mobility. Managing challenging behaviors requires a calm approach and redirection techniques."
+        ],
+        "tag": "caregiving_tips",
+        "patterns": [
+            "Caring for loved ones with dementia",
+            "Effective communication with seniors",
+            "Assistive devices for elderly",
+            "Managing challenging behaviors in patients"
+        ]
+    },
+    {
+        "responses": [
+            "Cancer support groups provide emotional and practical support. Coping with chemotherapy side effects may involve medications and lifestyle changes. Cancer prevention includes a healthy diet, regular exercise, and avoiding tobacco. Cancer caregivers need support; consider joining caregiver support groups."
+        ],
+        "tag": "cancer_support",
+        "patterns": [
+            "Cancer support groups",
+            "Coping with chemotherapy side effects",
+            "Cancer prevention tips",
+            "Support for cancer caregivers"
+        ]
+    },
+    {
+        "responses": [
+            "Athletes need a balanced diet with carbohydrates, proteins, and healthy fats. Pre-workout meals should include complex carbs and proteins. Post-workout recovery foods include protein-rich snacks and hydrating fruits. Hydration is crucial; drink water before, during, and after exercise."
+        ],
+        "tag": "nutrition_for_athletes",
+        "patterns": [
+            "Nutrition for athletes",
+            "Pre-workout meals",
+            "Post-workout recovery foods",
+            "Hydration tips for athletes"
+        ]
+    },
+    {
+        "responses": [
+            "Teenage health issues may include acne, growth spurts, and emotional changes. Healthy habits include balanced nutrition and regular exercise. Teen mental health concerns require support from parents and mental health professionals. Substance abuse prevention involves education and open communication."
+        ],
+        "tag": "youth_health",
+        "patterns": [
+            "Teenage health issues",
+            "Healthy habits for adolescents",
+            "Teen mental health",
+            "Substance abuse prevention in youth"
+        ]
+    },
+    {
+        "responses": [
+            "Prevent diseases by practicing good hygiene, getting vaccinated, and staying active. Follow immunization schedules to protect children from serious diseases. Prevent the spread of infectious diseases by washing hands frequently and avoiding close contact with sick individuals. Travelers should research health precautions specific to their destination."
+        ],
+        "tag": "disease_prevention",
+        "patterns": [
+            "Preventing common diseases",
+            "Immunization schedules for children",
+            "Preventing the spread of infectious diseases",
+            "Travel health precautions"
+        ]
+    },
+    {
+        "responses": [
+            "Eye care includes regular eye exams and protecting eyes from UV rays. Common eye problems include myopia, hyperopia, and astigmatism. Consult an eye specialist to choose the right glasses or contact lenses. Eye safety precautions involve wearing protective goggles in hazardous environments."
+        ],
+        "tag": "vision_care",
+        "patterns": [
+            "Eye care tips",
+            "Common eye problems",
+            "Choosing the right glasses or contact lenses",
+            "Eye safety precautions"
+        ]
+    },
+    {
+        "responses": [
+            "A good skin care routine includes cleansing, moisturizing, and using sunscreen. Acne can be managed with proper cleansing and non-comedogenic products. Protect skin from UV rays by wearing sunscreen, hats, and sunglasses. Common skin conditions include eczema, psoriasis, and dermatitis."
+        ],
+        "tag": "skin_care",
+        "patterns": [
+            "Skin care routines",
+            "Dealing with acne",
+            "Sun protection tips",
+            "Common skin conditions"
+        ]
+    },
+    {
+        "responses": [
+            "Nutrition for seniors should include plenty of fruits, vegetables, whole grains, and lean proteins. Managing appetite may involve smaller, more frequent meals. Elderly-friendly meals can include soups, stews, and soft foods. Consult a healthcare provider before taking dietary supplements."
+        ],
+        "tag": "elderly_nutrition",
+        "patterns": [
+            "Nutrition for seniors",
+            "Managing appetite in the elderly",
+            "Elderly-friendly meal ideas",
+            "Dietary supplements for older adults"
+        ]
+    },
+    {
+        "responses": [
+            "Teens need a balanced diet with adequate nutrients for growth and development. Encourage teens to eat a variety of fruits, vegetables, whole grains, and proteins. Address body image issues with positive reinforcement and self-acceptance. Promote positive eating habits through family meals and setting a good example."
+        ],
+        "tag": "teen_nutrition",
+        "patterns": [
+            "Healthy eating for teens",
+            "Balanced diet for adolescents",
+            "Dealing with body image issues",
+            "Encouraging positive eating habits"
+        ]
+    },
+    {
+        "responses": [
+            "Cognitive exercises like puzzles and memory games promote brain health. Memory can be improved through regular mental exercises and a healthy lifestyle. Prevent cognitive decline by staying mentally and socially active. Brain-boosting foods include fatty fish, berries, and nuts."
+        ],
+        "tag": "cognitive_health",
+        "patterns": [
+            "Cognitive exercises for brain health",
+            "Memory improvement techniques",
+            "Preventing cognitive decline",
+            "Brain-boosting foods"
+        ]
+    },
+    {
+        "responses": [
+            "Caring for dental implants involves regular brushing and flossing. Oral hygiene for braces wearers includes special brushes and tools. Tooth sensitivity can be managed with desensitizing toothpaste and avoiding hot or cold foods. Choose toothpaste with fluoride to strengthen enamel."
+        ],
+        "tag": "dental_health",
+        "patterns": [
+            "Caring for dental implants",
+            "Oral hygiene for braces wearers",
+            "Dealing with tooth sensitivity",
+            "Choosing the right toothpaste"
+        ]
+    },
+    {
+        "responses": [
+            "Maintain heart health through regular exercise, balanced diet, and stress management. Heart-healthy diets include low-fat, low-sodium foods, and plenty of fruits and vegetables. Exercises like aerobic activities and strength training promote a healthy heart. Manage blood pressure through medication, diet, and lifestyle changes."
+        ],
+        "tag": "heart_health",
+        "patterns": [
+            "Maintaining heart health",
+            "Heart-healthy diets",
+            "Exercises for a healthy heart",
+            "Blood pressure management"
+        ]
+    },
+    {
+        "responses": [
+            "Physical therapy aids in recovery from injuries, surgeries, and chronic conditions. Exercises for common injuries include stretches, strength training, and balance exercises. Rehabilitation after surgery may involve mobility exercises and pain management. Choose a physical therapist based on expertise, referrals, and compatibility."
+        ],
+        "tag": "physical_therapy",
+        "patterns": [
+            "Benefits of physical therapy",
+            "Exercises for common injuries",
+            "Rehabilitation after surgery",
+            "Choosing the right physical therapist"
+        ]
+    },
+    {
+        "responses": [
+            "Dietary supplements can fill nutritional gaps but should not replace a balanced diet. Choose supplements based on individual needs and consult a healthcare provider. Certain vitamins and minerals support specific health needs, such as calcium for bone health. Supplements may interact with medications; consult a healthcare provider for guidance."
+        ],
+        "tag": "nutrition_supplements",
+        "patterns": [
+            "Benefits of dietary supplements",
+            "Choosing the right supplements",
+            "Vitamins and minerals for specific health needs",
+            "Supplement interactions with medications"
+        ]
+    },
+    {
+        "responses": [
+            "Mindful eating involves savoring each bite, eating without distractions, and paying attention to body cues. Mindful eating exercises include meditation and deep breathing before meals. Listen to your body's signals for hunger and fullness. Avoid emotional eating by finding non-food ways to cope with emotions."
+        ],
+        "tag": "mindful_eating",
+        "patterns": [
+            "Practicing mindful eating",
+            "Mindful eating exercises",
+            "Listening to body cues for hunger and fullness",
+            "Avoiding emotional eating"
+        ]
+    },
+    {
+        "responses": [
+            "Maintain gut health through a balanced diet rich in fiber, fruits, vegetables, and whole grains. Foods for a healthy gut include yogurt, kefir, and fermented foods. Probiotics and prebiotics support gut flora. Digestive issues may require dietary changes, stress management, and medical evaluation."
+        ],
+        "tag": "gut_health",
+        "patterns": [
+            "Maintaining gut health",
+            "Foods for a healthy gut",
+            "Probiotics and prebiotics",
+            "Dealing with digestive issues"
+        ]
+    },
+    {
+        "responses": [
+            "Women's health screenings include mammograms, Pap smears, and bone density tests. Consult a healthcare provider for irregular menstrual cycles. Postmenopausal health involves bone health and heart health. Breast self-exams can detect changes and should be performed regularly."
+        ],
+        "tag": "women_health",
+        "patterns": [
+            "Women's health screenings",
+            "Managing menstrual irregularities",
+            "Postmenopausal health",
+            "Breast health and self-exams"
+        ]
+    },
+    {
+        "responses": [
+            "Common nutrition myths include the need for detox diets and excessive protein consumption. Misconceptions about diet and exercise include spot reduction and extreme calorie restriction. Differentiating food myths from facts can lead to healthier choices. Healthy eating truths involve balance, variety, and moderation."
+        ],
+        "tag": "nutrition_myths",
+        "patterns": [
+            "Common nutrition myths debunked",
+            "Misconceptions about diet and exercise",
+            "Food myths and facts",
+            "Healthy eating truths"
+        ]
+    },
+    {
+        "responses": [
+            "Sustainable lifestyle changes involve gradual adjustments and realistic goals. Set specific, achievable health goals for motivation. Stay motivated for exercise by finding enjoyable activities and workout partners. Building healthy habits requires consistency, positive reinforcement, and support."
+        ],
+        "tag": "lifestyle_changes",
+        "patterns": [
+            "Making sustainable lifestyle changes",
+            "Setting realistic health goals",
+            "Staying motivated for exercise",
+            "Building healthy habits"
+        ]
+    },
+    {
+        "responses": [
+            "Nutrition for picky eaters can include creative presentations of fruits and vegetables. Healthy school lunch ideas include whole grains, lean proteins, and colorful fruits and vegetables. Balanced snacks for kids can include yogurt, nuts, and cut-up fruits. Prevent childhood obesity through regular physical activity and limiting sugary foods."
+        ],
+        "tag": "child_nutrition",
+        "patterns": [
+            "Nutrition for picky eaters",
+            "Healthy school lunch ideas",
+            "Balanced snacks for kids",
+            "Preventing childhood obesity"
+        ]
+    },
+    {
+        "responses": [
+            "The mind-body connection emphasizes the influence of mental and emotional states on physical health. Meditation and yoga reduce stress and promote relaxation. Emotional stress can impact physical health, leading to various conditions. Positive thinking and optimism have a positive impact on overall well-being."
+        ],
+        "tag": "mind_body_connection",
+        "patterns": [
+            "Mind-body connection in health",
+            "Benefits of meditation and yoga",
+            "Emotional stress and physical health",
+            "Positive thinking and its impact on well-being"
+        ]
+    },
+    {
+        "responses": [
+            "Staying motivated for fitness involves setting goals, tracking progress, and celebrating achievements. Overcoming workout plateaus can be achieved by changing routines and intensities. Finding joy in physical activity by exploring different activities. Creating a supportive fitness environment with friends, family, or fitness communities."
+        ],
+        "tag": "fitness_motivation",
+        "patterns": [
+            "Staying motivated for fitness",
+            "Overcoming workout plateaus",
+            "Finding joy in physical activity",
+            "Creating a supportive fitness environment"
+        ]
+    },
+    {
+        "responses": [
+            "Mindfulness meditation involves being fully present in the moment. Practice mindful breathing by focusing on each breath. Body scan meditation involves paying attention to different parts of the body. Mindful eating meditation focuses on savoring the taste, texture, and aroma of food."
+        ],
+        "tag": "mindfulness_meditation",
+        "patterns": [
+            "Introduction to mindfulness meditation",
+            "Practicing mindful breathing",
+            "Body scan meditation",
+            "Mindful eating meditation"
+        ]
+    },
+    {
+        "responses": [
+            "Aging gracefully involves staying active, socializing, and engaging in hobbies. Maintain mental agility through puzzles, learning new skills, and social interactions. Embrace the aging process with self-compassion and gratitude. Finding purpose and joy in l,ter years can come from volunteering, hobbies, and spending time with loved ones."
+        ],
+        "tag": "aging_gracefully",
+        "patterns": [
+            "Aging gracefully tips",
+            "Maintaining mental agility in old age",
+            "Embracing the aging process",
+            "Finding purpose and joy in later years"
+        ]
+    }
+]
