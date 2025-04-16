@@ -79,6 +79,7 @@
       color: white;
       border: none;
       padding: 0 20px;
+      margin-right: 3px;
       cursor: pointer;
       font-weight: bold;
       transition: background-color 0.3s;
@@ -101,6 +102,7 @@
     <div class="input-area">
       <input id="userInput" type="text" placeholder="Écris ton message..." />
       <button onclick="send()">Envoyer</button>
+      <button onclick="clearchat()">clear chat</button>
     </div>
   </div>
 
@@ -156,7 +158,11 @@
       history.push({ role: "bot", message: data.cmcbot });
       localStorage.setItem("chatHistory", JSON.stringify(history));
     }
-
+    function clearchat(){
+      localStorage.setItem("chatHistory", JSON.stringify([]));
+      chatBox.innerHTML = ""
+    }
+    console.log(localStorage.getItem("chatHistory"))
     function loadHistory() {
       const history = JSON.parse(localStorage.getItem("chatHistory") || "[]");
       for (const msg of history) {
